@@ -1,6 +1,8 @@
 ---
 title: "Activity monitoring data"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 Loading the usual libraries
 
@@ -15,7 +17,7 @@ library(plyr, quiet=T)
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(
-  fig.path = "README_figs/README-"
+  fig.path = "figs/fig-"
 )
 ```
 
