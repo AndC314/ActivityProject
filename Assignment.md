@@ -14,6 +14,9 @@ library(plyr, quiet=T)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-"
+)
 ```
 
 Donwloading data from source, saving it and loading it with R
